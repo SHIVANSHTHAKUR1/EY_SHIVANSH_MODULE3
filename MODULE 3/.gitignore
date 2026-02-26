@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+.venv_tf/
+venv/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*.dylib
+*.dll
+.ipynb_checkpoints/
+*.log
+.DS_Store
+Thumbs.db
+
+# Large datasets and generated media
+plant_disease_data/
+
+# Media directories that should stay out of version control
+vid/
+img/
+day3/vd/
+day3/vid/
+day3/image/
+day3/img/
