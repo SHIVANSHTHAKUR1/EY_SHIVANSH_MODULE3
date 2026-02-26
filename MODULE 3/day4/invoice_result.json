@@ -1,0 +1,28 @@
+{
+  "source_file": "sample_invoice.jpg",
+  "raw_text": "ACME SUPPLIES LTD\n\nInvoice No: INV-\u20142024\u2014-00123\n\nDate: 15/02/2024\n\nBill To: customer@example.com\nPhone: +91\u2014-98765\u201443210\n\nltem 1 \u2014 Widget A Rs. 1,200.00\nItem 2 \u2014 Widget B Rs. 800.00\nItem 3 \u2014 Shipping Rs. 150.00\nTOTAL DUE: Rs. 2,150.00\n",
+  "extracted_fields": {
+    "dates": [
+      "15/02/2024"
+    ],
+    "amounts": [
+      "Rs. 2,150.00",
+      "Rs. 800.00",
+      "Rs. 150.00",
+      "Rs. 1,200.00"
+    ],
+    "total": null,
+    "invoice_number": "INV-",
+    "emails": [
+      "customer@example.com"
+    ],
+    "phones": [],
+    "possible_vendor": "ACME SUPPLIES LTD"
+  },
+  "validation": {
+    "has_date": true,
+    "has_amount": true,
+    "has_invoice_number": true,
+    "fields_found": 4
+  }
+}

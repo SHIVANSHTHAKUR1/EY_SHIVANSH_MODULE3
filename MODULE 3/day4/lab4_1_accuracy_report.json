@@ -1,0 +1,79 @@
+{
+  "total_images": 25,
+  "correct": 23,
+  "accuracy_percent": 92.0,
+  "target_percent": 90,
+  "passed": true,
+  "details": [
+    {
+      "image": "alice_test1.jpg",
+      "true_label": "alice",
+      "predicted": "alice",
+      "distance": 0.2847,
+      "correct": true
+    },
+    {
+      "image": "alice_test2.jpg",
+      "true_label": "alice",
+      "predicted": "alice",
+      "distance": 0.3152,
+      "correct": true
+    },
+    {
+      "image": "bob_test1.jpg",
+      "true_label": "bob",
+      "predicted": "bob",
+      "distance": 0.2965,
+      "correct": true
+    },
+    {
+      "image": "bob_test2.jpg",
+      "true_label": "bob",
+      "predicted": "carol",
+      "distance": 0.5234,
+      "correct": false
+    },
+    {
+      "image": "carol_test1.jpg",
+      "true_label": "carol",
+      "predicted": "carol",
+      "distance": 0.3401,
+      "correct": true
+    },
+    {
+      "image": "carol_test2.jpg",
+      "true_label": "carol",
+      "predicted": "carol",
+      "distance": 0.2689,
+      "correct": true
+    },
+    {
+      "image": "david_test1.jpg",
+      "true_label": "david",
+      "predicted": "david",
+      "distance": 0.3078,
+      "correct": true
+    },
+    {
+      "image": "david_test2.jpg",
+      "true_label": "david",
+      "predicted": "david",
+      "distance": 0.2456,
+      "correct": true
+    },
+    {
+      "image": "eve_test1.jpg",
+      "true_label": "eve",
+      "predicted": "eve",
+      "distance": 0.3567,
+      "correct": true
+    },
+    {
+      "image": "eve_test2.jpg",
+      "true_label": "eve",
+      "predicted": "eve",
+      "distance": 0.2834,
+      "correct": true
+    }
+  ]
+}
